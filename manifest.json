@@ -1,0 +1,26 @@
+{
+  "id": "example-plugin",
+  "name": "Example Plugin",
+  "version": "1.0.0",
+  "description": "Reference plugin demonstrating global scope, configTemplate fields, and runtime entry points.",
+  "scope": "global",
+  "category": "utility",
+  "configTemplate": [
+    {
+      "key": "greeting",
+      "label": "Greeting message",
+      "type": "text",
+      "placeholder": "Hello from example-plugin",
+      "defaultValue": "Hello from example-plugin"
+    },
+    {
+      "key": "enableDebugRoute",
+      "label": "Expose debug route",
+      "type": "checkbox",
+      "defaultValue": true
+    }
+  ],
+  "githubUrl": "https://github.com/esiana/example-plugin",
+  "backendEntry": "backend/index.js",
+  "frontendEntry": "frontend/index.js"
+}
