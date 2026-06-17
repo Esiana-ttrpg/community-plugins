@@ -1,0 +1,13 @@
+{
+  "id": "remote-object-storage",
+  "name": "Remote Object Storage",
+  "version": "1.0.0",
+  "description": "S3-compatible storage driver for Esiana (AWS S3, MinIO, R2, Wasabi, DO Spaces).",
+  "scope": "global",
+  "category": "infrastructure",
+  "engines": { "esiana-core": "^1.0.8" },
+  "capabilities": ["storageProvider"],
+  "permissions": ["storage:provider"],
+  "backendEntry": "backend/index.js",
+  "githubUrl": "https://github.com/Esiana-ttrpg/community-plugins/tree/main/remote-object-storage"
+}
