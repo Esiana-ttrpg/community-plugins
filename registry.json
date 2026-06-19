@@ -2,22 +2,6 @@
   "registryVersion": "1",
   "plugins": [
     {
-      "id": "example-plugin",
-      "name": "Example Plugin",
-      "version": "1.0.0",
-      "description": "Reference global plugin with configTemplate fields and runtime routes under /api/plugin-runtime/example-plugin/hello.",
-      "scope": "global",
-      "category": "utility",
-      "manifestUrl": "https://raw.githubusercontent.com/Esiana-ttrpg/community-plugins/main/example-plugin/manifest.json",
-      "source": {
-        "type": "github",
-        "repo": "Esiana-ttrpg/community-plugins",
-        "commitSha": "aad6b8a86cf9c20664e7d57d18b59faee6d9b471",
-        "path": "example-plugin"
-      },
-      "installable": true
-    },
-    {
       "id": "remote-object-storage",
       "name": "Remote Object Storage",
       "version": "1.0.0",
@@ -28,7 +12,7 @@
       "source": {
         "type": "github",
         "repo": "Esiana-ttrpg/community-plugins",
-        "commitSha": "aad6b8a86cf9c20664e7d57d18b59faee6d9b471",
+        "commitSha": "6f8f1ce394866498cb56eb74fe5364e6f2e08a5f",
         "path": "remote-object-storage"
       },
       "installable": true
@@ -44,24 +28,8 @@
       "source": {
         "type": "github",
         "repo": "Esiana-ttrpg/community-plugins",
-        "commitSha": "aad6b8a86cf9c20664e7d57d18b59faee6d9b471",
+        "commitSha": "6f8f1ce394866498cb56eb74fe5364e6f2e08a5f",
         "path": "wiki-opds-feed"
-      },
-      "installable": true
-    },
-    {
-      "id": "settlement-life",
-      "name": "Settlement Life",
-      "version": "1.0.0",
-      "description": "Reference World Development plugin — social developments on rising trajectories.",
-      "scope": "global",
-      "category": "utility",
-      "manifestUrl": "https://raw.githubusercontent.com/Esiana-ttrpg/community-plugins/main/settlement-life/manifest.json",
-      "source": {
-        "type": "github",
-        "repo": "Esiana-ttrpg/community-plugins",
-        "commitSha": "aad6b8a86cf9c20664e7d57d18b59faee6d9b471",
-        "path": "settlement-life"
       },
       "installable": true
     },
@@ -76,40 +44,8 @@
       "source": {
         "type": "github",
         "repo": "Esiana-ttrpg/community-plugins",
-        "commitSha": "aad6b8a86cf9c20664e7d57d18b59faee6d9b471",
+        "commitSha": "6f8f1ce394866498cb56eb74fe5364e6f2e08a5f",
         "path": "demo-content-packs"
-      },
-      "installable": true
-    },
-    {
-      "id": "campaign-seeder",
-      "name": "Campaign Seeder",
-      "version": "0.1.0",
-      "description": "Deterministic campaign activity simulator for QA, demos, and stress testing.",
-      "scope": "global",
-      "category": "dev",
-      "manifestUrl": "https://raw.githubusercontent.com/Esiana-ttrpg/community-plugins/main/campaign-seeder/manifest.json",
-      "source": {
-        "type": "github",
-        "repo": "Esiana-ttrpg/community-plugins",
-        "commitSha": "aad6b8a86cf9c20664e7d57d18b59faee6d9b471",
-        "path": "campaign-seeder"
-      },
-      "installable": true
-    },
-    {
-      "id": "player-journal",
-      "name": "Player Journal",
-      "version": "0.1.0",
-      "description": "Personal journal widget with optional publish-to-wiki — plugin author tutorial.",
-      "scope": "campaign",
-      "category": "utility",
-      "manifestUrl": "https://raw.githubusercontent.com/Esiana-ttrpg/community-plugins/main/player-journal/manifest.json",
-      "source": {
-        "type": "github",
-        "repo": "Esiana-ttrpg/community-plugins",
-        "commitSha": "aad6b8a86cf9c20664e7d57d18b59faee6d9b471",
-        "path": "player-journal"
       },
       "installable": true
     }
