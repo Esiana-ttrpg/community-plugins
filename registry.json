@@ -12,7 +12,7 @@
       "source": {
         "type": "github",
         "repo": "Esiana-ttrpg/community-plugins",
-        "commitSha": "c14b47e5a9d875277c77234265eb24b7c9718f21",
+        "commitSha": "6f8f1ce394866498cb56eb74fe5364e6f2e08a5f",
         "path": "remote-object-storage"
       },
       "installable": true
@@ -28,7 +28,7 @@
       "source": {
         "type": "github",
         "repo": "Esiana-ttrpg/community-plugins",
-        "commitSha": "c14b47e5a9d875277c77234265eb24b7c9718f21",
+        "commitSha": "6f8f1ce394866498cb56eb74fe5364e6f2e08a5f",
         "path": "wiki-opds-feed"
       },
       "installable": true
@@ -44,7 +44,7 @@
       "source": {
         "type": "github",
         "repo": "Esiana-ttrpg/community-plugins",
-        "commitSha": "c14b47e5a9d875277c77234265eb24b7c9718f21",
+        "commitSha": "6f8f1ce394866498cb56eb74fe5364e6f2e08a5f",
         "path": "demo-content-packs"
       },
       "installable": true
