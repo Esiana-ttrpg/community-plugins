@@ -4,7 +4,7 @@
     {
       "id": "example-plugin",
       "name": "Example Plugin",
-      "version": "1.1.0",
+      "version": "1.0.0",
       "description": "Reference global plugin with configTemplate fields and runtime routes under /api/plugin-runtime/example-plugin/hello.",
       "scope": "global",
       "category": "utility",
@@ -110,22 +110,6 @@
         "repo": "Esiana-ttrpg/community-plugins",
         "commitSha": "0000000000000000000000000000000000000001",
         "path": "player-journal"
-      },
-      "installable": true
-    },
-    {
-      "id": "foundry-vtt-sync",
-      "name": "Foundry VTT Sync",
-      "version": "1.0.0",
-      "description": "Sync scenes and assets with a Foundry VTT world (integration stub).",
-      "scope": "global",
-      "category": "integration",
-      "manifestUrl": "https://raw.githubusercontent.com/Esiana-ttrpg/community-plugins/main/foundry-vtt-sync/manifest.json",
-      "source": {
-        "type": "github",
-        "repo": "Esiana-ttrpg/community-plugins",
-        "commitSha": "0000000000000000000000000000000000000001",
-        "path": "foundry-vtt-sync"
       },
       "installable": true
     }

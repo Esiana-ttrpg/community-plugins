@@ -1,51 +1,65 @@
-# community-plugins
+# Esiana community plugins
 
-Official Esiana plugin catalog and first-party plugin packages.
+Official plugin catalog for [Esiana](https://github.com/Esiana-ttrpg/esiana-core). Esiana core is the **host**; installable packages live here.
 
-## What this repo is
+## Catalog
 
-| Layer | Location |
-|-------|----------|
-| **Catalog index** | [`registry.json`](./registry.json) — discoverable plugin entries |
-| **First-party packages** | Subdirectories with `manifest.json` (Esiana-maintained) |
-| **External plugins** | Listed in `registry.json` only — source stays in contributor repos |
+| File | Purpose |
+|------|---------|
+| [`registry.json`](registry.json) | Multi-plugin catalog for Admin → Sync Registry |
+| `{plugin-id}/manifest.json` | Per-plugin manifest |
 
-Operators configure Esiana Admin with the registry URL:
+Default registry URL in Esiana:
 
-```text
-https://github.com/Esiana-ttrpg/community-plugins/blob/main/registry.json
+`https://raw.githubusercontent.com/Esiana-ttrpg/community-plugins/main/registry.json`
+
+## Published plugins
+
+| Plugin | Scope | Description |
+|--------|-------|-------------|
+| [`example-plugin`](example-plugin/) | global | PDK reference — routes, configTemplate, data interceptors |
+| [`openid-connect`](openid-connect/) | global | OIDC single sign-on |
+| [`remote-object-storage`](remote-object-storage/) | global | S3-compatible storage driver registration |
+| [`settlement-life`](settlement-life/) | global | World Development reference plugin |
+| [`demo-content-packs`](demo-content-packs/) | global | Create Campaign markdown content packs |
+| [`campaign-seeder`](campaign-seeder/) | global | QA / demo activity simulator |
+| [`player-journal`](player-journal/) | campaign | Plugin author tutorial widget |
+| [`wiki-opds-feed`](wiki-opds-feed/) | campaign | OPDS 1.2 public lore feed |
+
+Additional packages (e.g. [`openid-connect`](openid-connect/)) may exist on disk — add to `registry.json` when ready for catalog install.
+
+## Local development (monorepo)
+
+From `esiana-core`:
+
+```bash
+npm run plugins:link
 ```
 
-Esiana normalizes blob links to raw JSON at fetch time. The blob URL is the inspectable source of truth in the UI.
+Copies plugin packages from this repo into `esiana-core/plugins/` for runtime loading. Registry sync also reads `../community-plugins/registry.json` when present.
 
-## Plugin Data Model v1
+## Pin commit SHAs before release
 
-Three layers — do not mix registry discovery with install provenance:
-
-1. **Registry origin** — `registry.json` URL (blob link above)
-2. **Registry entry** — each object in `registry.json` with `source.repo`, `commitSha`, `path`
-3. **Installed plugin** — runtime artifact in the host's `PLUGINS_DIR` with provenance (`registry`, `manifest-url`, or `local-dev`)
-
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for contribution paths.
-
-## First-party development
-
-After editing a package under this repo:
+Registry installs require immutable 40-character git SHAs. After pushing this repo:
 
 ```bash
 node scripts/pin-registry-shas.mjs
-git add registry.json
 ```
 
-From a sibling `esiana-core` checkout:
+Commit the updated `registry.json`.
 
-```bash
-pnpm run plugins:link
+## Authoring a plugin
+
+See [`example-plugin/manifest.json`](example-plugin/manifest.json) and the Esiana plugin docs in `esiana-core/plugins/README.md`.
+
+Each plugin folder:
+
+```
+my-plugin/
+  manifest.json
+  backend/index.js      # optional
+  frontend/index.js     # optional
+  hooks/                # optional data interceptors
 ```
 
-Restart the backend after manifest changes.
-
-## Further reading
-
-- [Plugin development (docs wiki)](https://github.com/Esiana-ttrpg/docs/tree/main/plugin-development)
-- [Publishing to the registry](https://github.com/Esiana-ttrpg/docs/blob/main/plugin-development/publishing-to-registry.md)
+Add an entry to `registry.json` with `manifestUrl`, `source.repo`, `source.commitSha`, and `source.path`.
