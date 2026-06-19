@@ -12,7 +12,7 @@
       "source": {
         "type": "github",
         "repo": "Esiana-ttrpg/community-plugins",
-        "commitSha": "0000000000000000000000000000000000000001",
+        "commitSha": "aad6b8a86cf9c20664e7d57d18b59faee6d9b471",
         "path": "example-plugin"
       },
       "installable": true
@@ -28,7 +28,7 @@
       "source": {
         "type": "github",
         "repo": "Esiana-ttrpg/community-plugins",
-        "commitSha": "0000000000000000000000000000000000000001",
+        "commitSha": "aad6b8a86cf9c20664e7d57d18b59faee6d9b471",
         "path": "remote-object-storage"
       },
       "installable": true
@@ -44,7 +44,7 @@
       "source": {
         "type": "github",
         "repo": "Esiana-ttrpg/community-plugins",
-        "commitSha": "0000000000000000000000000000000000000001",
+        "commitSha": "aad6b8a86cf9c20664e7d57d18b59faee6d9b471",
         "path": "wiki-opds-feed"
       },
       "installable": true
@@ -60,7 +60,7 @@
       "source": {
         "type": "github",
         "repo": "Esiana-ttrpg/community-plugins",
-        "commitSha": "0000000000000000000000000000000000000001",
+        "commitSha": "aad6b8a86cf9c20664e7d57d18b59faee6d9b471",
         "path": "settlement-life"
       },
       "installable": true
@@ -76,7 +76,7 @@
       "source": {
         "type": "github",
         "repo": "Esiana-ttrpg/community-plugins",
-        "commitSha": "0000000000000000000000000000000000000001",
+        "commitSha": "aad6b8a86cf9c20664e7d57d18b59faee6d9b471",
         "path": "demo-content-packs"
       },
       "installable": true
@@ -92,7 +92,7 @@
       "source": {
         "type": "github",
         "repo": "Esiana-ttrpg/community-plugins",
-        "commitSha": "0000000000000000000000000000000000000001",
+        "commitSha": "aad6b8a86cf9c20664e7d57d18b59faee6d9b471",
         "path": "campaign-seeder"
       },
       "installable": true
@@ -108,7 +108,7 @@
       "source": {
         "type": "github",
         "repo": "Esiana-ttrpg/community-plugins",
-        "commitSha": "0000000000000000000000000000000000000001",
+        "commitSha": "aad6b8a86cf9c20664e7d57d18b59faee6d9b471",
         "path": "player-journal"
       },
       "installable": true
