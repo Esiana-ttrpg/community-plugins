@@ -1,0 +1,133 @@
+{
+  "registryVersion": "1",
+  "plugins": [
+    {
+      "id": "example-plugin",
+      "name": "Example Plugin",
+      "version": "1.1.0",
+      "description": "Reference global plugin with configTemplate fields and runtime routes under /api/plugin-runtime/example-plugin/hello.",
+      "scope": "global",
+      "category": "utility",
+      "manifestUrl": "https://raw.githubusercontent.com/Esiana-ttrpg/community-plugins/main/example-plugin/manifest.json",
+      "source": {
+        "type": "github",
+        "repo": "Esiana-ttrpg/community-plugins",
+        "commitSha": "0000000000000000000000000000000000000001",
+        "path": "example-plugin"
+      },
+      "installable": true
+    },
+    {
+      "id": "remote-object-storage",
+      "name": "Remote Object Storage",
+      "version": "1.0.0",
+      "description": "Register a remote object storage provider (S3-compatible, Azure, B2, etc.).",
+      "scope": "global",
+      "category": "integration",
+      "manifestUrl": "https://raw.githubusercontent.com/Esiana-ttrpg/community-plugins/main/remote-object-storage/manifest.json",
+      "source": {
+        "type": "github",
+        "repo": "Esiana-ttrpg/community-plugins",
+        "commitSha": "0000000000000000000000000000000000000001",
+        "path": "remote-object-storage"
+      },
+      "installable": true
+    },
+    {
+      "id": "wiki-opds-feed",
+      "name": "Wiki OPDS Feed",
+      "version": "0.1.0",
+      "description": "Syndicate public wiki pages to e-readers via OPDS 1.2 Atom.",
+      "scope": "campaign",
+      "category": "wiki",
+      "manifestUrl": "https://raw.githubusercontent.com/Esiana-ttrpg/community-plugins/main/wiki-opds-feed/manifest.json",
+      "source": {
+        "type": "github",
+        "repo": "Esiana-ttrpg/community-plugins",
+        "commitSha": "0000000000000000000000000000000000000001",
+        "path": "wiki-opds-feed"
+      },
+      "installable": true
+    },
+    {
+      "id": "settlement-life",
+      "name": "Settlement Life",
+      "version": "1.0.0",
+      "description": "Reference World Development plugin — social developments on rising trajectories.",
+      "scope": "global",
+      "category": "utility",
+      "manifestUrl": "https://raw.githubusercontent.com/Esiana-ttrpg/community-plugins/main/settlement-life/manifest.json",
+      "source": {
+        "type": "github",
+        "repo": "Esiana-ttrpg/community-plugins",
+        "commitSha": "0000000000000000000000000000000000000001",
+        "path": "settlement-life"
+      },
+      "installable": true
+    },
+    {
+      "id": "demo-content-packs",
+      "name": "Demo Content Packs",
+      "version": "0.2.0",
+      "description": "Markdown content packs for Create Campaign: GbM flagship, daggerheart/starfinder genre validation, and legacy tomb/player-experience regression packs.",
+      "scope": "global",
+      "category": "utility",
+      "manifestUrl": "https://raw.githubusercontent.com/Esiana-ttrpg/community-plugins/main/demo-content-packs/manifest.json",
+      "source": {
+        "type": "github",
+        "repo": "Esiana-ttrpg/community-plugins",
+        "commitSha": "0000000000000000000000000000000000000001",
+        "path": "demo-content-packs"
+      },
+      "installable": true
+    },
+    {
+      "id": "campaign-seeder",
+      "name": "Campaign Seeder",
+      "version": "0.1.0",
+      "description": "Deterministic campaign activity simulator for QA, demos, and stress testing.",
+      "scope": "global",
+      "category": "dev",
+      "manifestUrl": "https://raw.githubusercontent.com/Esiana-ttrpg/community-plugins/main/campaign-seeder/manifest.json",
+      "source": {
+        "type": "github",
+        "repo": "Esiana-ttrpg/community-plugins",
+        "commitSha": "0000000000000000000000000000000000000001",
+        "path": "campaign-seeder"
+      },
+      "installable": true
+    },
+    {
+      "id": "player-journal",
+      "name": "Player Journal",
+      "version": "0.1.0",
+      "description": "Personal journal widget with optional publish-to-wiki — plugin author tutorial.",
+      "scope": "campaign",
+      "category": "utility",
+      "manifestUrl": "https://raw.githubusercontent.com/Esiana-ttrpg/community-plugins/main/player-journal/manifest.json",
+      "source": {
+        "type": "github",
+        "repo": "Esiana-ttrpg/community-plugins",
+        "commitSha": "0000000000000000000000000000000000000001",
+        "path": "player-journal"
+      },
+      "installable": true
+    },
+    {
+      "id": "foundry-vtt-sync",
+      "name": "Foundry VTT Sync",
+      "version": "1.0.0",
+      "description": "Sync scenes and assets with a Foundry VTT world (integration stub).",
+      "scope": "global",
+      "category": "integration",
+      "manifestUrl": "https://raw.githubusercontent.com/Esiana-ttrpg/community-plugins/main/foundry-vtt-sync/manifest.json",
+      "source": {
+        "type": "github",
+        "repo": "Esiana-ttrpg/community-plugins",
+        "commitSha": "0000000000000000000000000000000000000001",
+        "path": "foundry-vtt-sync"
+      },
+      "installable": true
+    }
+  ]
+}
