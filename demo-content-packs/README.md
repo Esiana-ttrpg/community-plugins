@@ -36,7 +36,6 @@ See [sample-data-generator.md](https://github.com/Esiana-ttrpg/esiana-core/blob/
 # From this directory (community-plugins/demo-content-packs)
 node scripts/generate-gbm-pack.mjs
 node scripts/generate-genre-packs.mjs
-node scripts/convert-from-seeder.mjs   # tomb + player-experience only
 ```
 
 **Important:** Esiana does not read `community-plugins/` at runtime. After generating or editing packs, sync into core:

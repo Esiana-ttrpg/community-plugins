@@ -40,8 +40,10 @@ Maintainers review manifest permissions, pinned SHA, and repository trustworthin
 
 ### Esiana first-party (package in this repo)
 
-1. Add or update a subdirectory with `manifest.json`, `README.md`, and runtime entry points.
-2. Add or update the matching entry in `registry.json` with `source.repo: "Esiana-ttrpg/community-plugins"`.
+**Catalog plugins** live at the repo root and have a matching `registry.json` entry. **Examples** live under `examples/`; **stubs** under `stubs/` — neither appears in the registry until explicitly promoted.
+
+1. Add or update a package directory with `manifest.json`, `README.md`, and runtime entry points.
+2. For catalog plugins: add or update the matching entry in `registry.json` with `source.repo: "Esiana-ttrpg/community-plugins"` and top-level `source.path`.
 3. Run `node scripts/pin-registry-shas.mjs` to pin first-party SHAs to current `main` HEAD.
 4. Commit both the package and updated `registry.json`.
 
