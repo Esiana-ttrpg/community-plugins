@@ -1,5 +1,9 @@
 #!/usr/bin/env node
 /**
+ * WARNING: DESTRUCTIVE — deletes and regenerates the entire girl-by-moonlight-one-shot pack.
+ * The pack is hand-authored (story-dense showcase). Do NOT run unless intentionally
+ * regenerating the validation scaffold from scratch.
+ *
  * Generates girl-by-moonlight-one-shot flagship content pack.
  * Run from demo-content-packs: node scripts/generate-gbm-pack.mjs
  */

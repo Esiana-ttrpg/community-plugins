@@ -1,72 +1,89 @@
 {
   "links": [
-    {
-      "sourceSlug": "pc-hana",
-      "targetSlug": "org-shirogane-academy"
-    },
-    {
-      "sourceSlug": "pc-mira",
-      "targetSlug": "org-student-council"
-    },
-    {
-      "sourceSlug": "pc-yuki",
-      "targetSlug": "org-lunar-directorate"
-    },
-    {
-      "sourceSlug": "pc-ren",
-      "targetSlug": "org-crescent-resistance"
-    },
-    {
-      "sourceSlug": "org-shirogane-academy",
-      "targetSlug": "org-student-council"
-    },
-    {
-      "sourceSlug": "org-lunar-directorate",
-      "targetSlug": "org-eclipse-syndicate"
-    },
-    {
-      "sourceSlug": "quest-find-idol",
-      "targetSlug": "thread-hope-vs-despair"
-    },
-    {
-      "sourceSlug": "quest-investigate-ruins",
-      "targetSlug": "thread-city-secret"
-    },
-    {
-      "sourceSlug": "quest-confront-regent",
-      "targetSlug": "thread-cost-of-power"
-    }
+    { "sourceSlug": "pc-hana", "targetSlug": "org-shirogane-academy" },
+    { "sourceSlug": "pc-mira", "targetSlug": "org-student-council" },
+    { "sourceSlug": "pc-yuki", "targetSlug": "org-lunar-directorate" },
+    { "sourceSlug": "pc-ren", "targetSlug": "org-crescent-resistance" },
+    { "sourceSlug": "pc-hana", "targetSlug": "pc-ren" },
+    { "sourceSlug": "pc-mira", "targetSlug": "pc-yuki" },
+    { "sourceSlug": "pc-hana", "targetSlug": "pc-mira" },
+    { "sourceSlug": "pc-yuki", "targetSlug": "pc-ren" },
+    { "sourceSlug": "org-shirogane-academy", "targetSlug": "org-student-council" },
+    { "sourceSlug": "org-lunar-directorate", "targetSlug": "org-eclipse-syndicate" },
+    { "sourceSlug": "quest-find-idol", "targetSlug": "thread-hope-vs-despair" },
+    { "sourceSlug": "quest-investigate-ruins", "targetSlug": "thread-city-secret" },
+    { "sourceSlug": "quest-confront-regent", "targetSlug": "thread-cost-of-power" },
+    { "sourceSlug": "scene-yuki-room-gathering", "targetSlug": "quest-investigate-ruins" },
+    { "sourceSlug": "scene-yuki-room-gathering", "targetSlug": "thread-hope-vs-despair" }
   ],
   "tags": [
-    {
-      "pageSlug": "lore-moon-curse",
-      "tagName": "lore",
-      "tagLabel": "Lore"
-    },
-    {
-      "pageSlug": "quest-find-idol",
-      "tagName": "quest",
-      "tagLabel": "Quest"
-    }
+    { "pageSlug": "lore-moon-curse", "tagName": "lore", "tagLabel": "Lore" },
+    { "pageSlug": "quest-find-idol", "tagName": "quest", "tagLabel": "Quest" },
+    { "pageSlug": "session-zero", "tagName": "session", "tagLabel": "Session Notes" }
   ],
   "mapPins": [
     {
       "id": "gbm-pin-academy",
-      "assetPath": "assets/locations/city-map.webp",
+      "assetPath": "assets/maps/city-overview.webp",
       "targetSlug": "loc-shirogane-campus",
       "label": "Academy District",
       "pinType": "Location",
+      "x_coordinate": 180,
+      "y_coordinate": 220
+    },
+    {
+      "id": "gbm-pin-directorate",
+      "assetPath": "assets/maps/city-overview.webp",
+      "targetSlug": "loc-directorate-tower",
+      "label": "Directorate Tower",
+      "pinType": "Location",
+      "x_coordinate": 420,
+      "y_coordinate": 180
+    },
+    {
+      "id": "gbm-pin-broadcast",
+      "assetPath": "assets/maps/city-overview.webp",
+      "targetSlug": "loc-broadcast-tower",
+      "label": "Broadcast Tower",
+      "pinType": "Location",
+      "x_coordinate": 520,
+      "y_coordinate": 120
+    },
+    {
+      "id": "gbm-pin-observatory",
+      "assetPath": "assets/maps/city-overview.webp",
+      "targetSlug": "loc-ruined-observatory",
+      "label": "Ruined Observatory",
+      "pinType": "Location",
+      "x_coordinate": 340,
+      "y_coordinate": 380
+    },
+    {
+      "id": "gbm-pin-shrine",
+      "assetPath": "assets/maps/city-overview.webp",
+      "targetSlug": "loc-old-shrine",
+      "label": "Old Shrine",
+      "pinType": "Location",
+      "x_coordinate": 300,
+      "y_coordinate": 420
+    },
+    {
+      "id": "gbm-pin-ashvale",
+      "assetPath": "assets/maps/city-overview.webp",
+      "targetSlug": "loc-ashvale-apartment",
+      "label": "Ashvale Quarter",
+      "pinType": "Location",
       "x_coordinate": 120,
-      "y_coordinate": 80
+      "y_coordinate": 340
     },
     {
       "id": "gbm-pin-rooftop",
-      "assetPath": "assets/locations/city-map.webp",
+      "assetPath": "assets/maps/city-overview.webp",
       "targetSlug": "haven-school-rooftop",
       "label": "Rooftop Haven",
       "pinType": "Location",
       "x_coordinate": 200,
-      "y_coordinate": 140
+      "y_coordinate": 200
     }
   ]
 }
