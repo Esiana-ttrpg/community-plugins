@@ -19,6 +19,42 @@
       "statement": "The Directorate engineered the first binding ritual.",
       "knowledgeState": "UNDISCOVERED",
       "visibility": "DM_Only"
+    },
+    {
+      "pageSlug": "lore-moon-curse",
+      "statement": "The oldest binding texts describe five bearers, not four.",
+      "knowledgeState": "SUSPECTED",
+      "visibility": "Party"
+    },
+    {
+      "pageSlug": "event-recent-eclipse",
+      "statement": "There were five witnesses at the Old Shrine during the eclipse, not four.",
+      "knowledgeState": "SUSPECTED",
+      "visibility": "Party"
+    },
+    {
+      "pageSlug": "thread-city-secret",
+      "statement": "Official witness counts from the eclipse do not match coven memory.",
+      "knowledgeState": "CONFIRMED",
+      "visibility": "Party"
+    },
+    {
+      "pageSlug": "lore-directorate-secret",
+      "statement": "Regent Vale and the Directorate both seek the same dormant ritual keys.",
+      "knowledgeState": "UNDISCOVERED",
+      "visibility": "DM_Only"
+    },
+    {
+      "pageSlug": "event-founding-ritual",
+      "statement": "One participant name was deliberately erased from founding records.",
+      "knowledgeState": "SUSPECTED",
+      "visibility": "DM_Only"
+    },
+    {
+      "pageSlug": "quest-find-idol",
+      "statement": "Shrine security captured five silhouettes; only four match known students.",
+      "knowledgeState": "CONFIRMED",
+      "visibility": "Party"
     }
   ]
 }

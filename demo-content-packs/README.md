@@ -6,7 +6,7 @@ Markdown content packs for the Esiana Create Campaign wizard. Phase 2B adds flag
 
 | Pack ID | Purpose |
 |---------|---------|
-| `girl-by-moonlight-one-shot` | Full pre-1.0 narrative system validation (flagship) |
+| `girl-by-moonlight-one-shot` | Flagship Esiana campaign showcase — story-dense coven, portraits, map art, Campaign Home banner |
 | `daggerheart-demo` | Character, org, quest genre slice |
 | `starfinder-demo` | Maps, locations, map pins |
 | `tomb-of-horrors-demo` | Import fidelity regression (frozen) |
@@ -22,7 +22,7 @@ packs/<pack-id>/
 ├── assets/         # optional maps and images
 ├── calendar.json   # optional — Fantasy Calendar export schema
 ├── relations.json  # optional — map pins, explicit links, tags
-├── campaign.json   # optional — recruitment tagline, description
+├── campaign.json   # optional — recruitment tagline, description, coverImagePath
 └── knowledge.json  # optional — lore claims, historical aliases
 ```
 
@@ -34,9 +34,10 @@ See [sample-data-generator.md](https://github.com/Esiana-ttrpg/esiana-core/blob/
 
 ```bash
 # From this directory (community-plugins/demo-content-packs)
-node scripts/generate-gbm-pack.mjs
 node scripts/generate-genre-packs.mjs
 ```
+
+**Do not run `generate-gbm-pack.mjs`** unless regenerating the validation scaffold — the GbM pack is hand-authored.
 
 **Important:** Esiana does not read `community-plugins/` at runtime. After generating or editing packs, sync into core:
 

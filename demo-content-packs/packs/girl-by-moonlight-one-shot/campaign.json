@@ -1,7 +1,8 @@
 {
   "formatVersion": 1,
   "recruitmentTagline": "Four girls. One curse. Tonight the moon demands an answer.",
-  "description": "An urban-fantasy one-shot about dual identity, hidden lore, and the cost of power.",
+  "description": "An urban-fantasy coven story about dual identity, hidden lore, and the cost of power — a flagship Esiana campaign showcase.",
   "campaignHomeIntro": "The city remembers what the moon forgot. Your coven fights to keep both.",
-  "startingLocationPageSlug": "loc-shirogane-campus"
+  "startingLocationPageSlug": "loc-shirogane-campus",
+  "coverImagePath": "assets/banner.webp"
 }
