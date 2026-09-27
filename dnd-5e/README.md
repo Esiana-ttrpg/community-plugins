@@ -2,6 +2,8 @@
 
 A campaign-scoped D&D 5e sheet and spellcasting page implemented entirely through Esiana 1.5's published plugin and CharacterField contracts. It does not add 5e-specific behavior to Esiana Core.
 
+> **Requires Esiana Core 1.5.0 or newer.** The manifest enforces this with `engines.esiana-core: ">=1.5.0"`; older runtimes will refuse to enable the plugin.
+
 ## Current scope
 
 The plugin contributes one **5e Character Sheet** character page with persistent fields for:
