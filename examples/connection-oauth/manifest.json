@@ -1,0 +1,12 @@
+{
+  "id": "connection-oauth",
+  "name": "Connection OAuth Example",
+  "version": "0.1.0",
+  "description": "Reference provider demonstrating core-owned OAuth 2 connections and authenticated fetch.",
+  "scope": "campaign",
+  "category": "integration",
+  "backendEntry": "backend/index.js",
+  "permissions": ["connections:use", "network:fetch"],
+  "outboundOrigins": ["http://localhost:3001"],
+  "engines": { "esiana-core": "^1.0.0" }
+}
