@@ -48,6 +48,22 @@
         "path": "demo-content-packs"
       },
       "installable": true
+    },
+    {
+      "id": "dnd-5e",
+      "name": "D&D 5e",
+      "version": "0.2.0",
+      "description": "D&D 5e character sheets with system-specific stats, skills, saving throws, attacks, equipment, features, proficiencies, and derived values.",
+      "scope": "campaign",
+      "category": "character",
+      "manifestUrl": "https://raw.githubusercontent.com/Esiana-ttrpg/community-plugins/main/dnd-5e/manifest.json",
+      "source": {
+        "type": "github",
+        "repo": "Esiana-ttrpg/community-plugins",
+        "commitSha": "2e81aa00f1aa9aab73a2de6306893caf86b7d5ea",
+        "path": "dnd-5e"
+      },
+      "installable": true
     }
   ]
 }

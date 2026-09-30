@@ -1,0 +1,26 @@
+{
+  "ability-strength": 16,
+  "ability-dexterity": 12,
+  "ability-intelligence": 14,
+  "character-level": 5,
+  "character-class": "Fighter",
+  "combat-ac": 18,
+  "hp-current": 39,
+  "hp-maximum": 44,
+  "attacks": {
+    "version": 1,
+    "entries": [{ "id": "attack-longsword", "name": "Longsword", "ability": "strength", "proficiency": "PROFICIENT", "bonus": 1, "damage": "1d8+3", "damageType": "slashing", "notes": "Versatile 1d10" }]
+  },
+  "equipment": {
+    "version": 1,
+    "entries": [{ "id": "item-shield", "name": "Shield", "quantity": 1, "equipped": true, "notes": "+2 AC" }]
+  },
+  "features": {
+    "version": 1,
+    "entries": [{ "id": "feature-action-surge", "name": "Action Surge", "source": "Fighter", "description": "Take one additional action.", "usesCurrent": 1, "usesMaximum": 1, "reset": "SHORT_REST" }]
+  },
+  "proficiencies-languages": {
+    "version": 1,
+    "entries": [{ "id": "language-common", "name": "Common", "type": "LANGUAGE", "notes": "" }]
+  }
+}
