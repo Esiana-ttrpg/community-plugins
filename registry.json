@@ -18,6 +18,23 @@
       "installable": true
     },
     {
+      "id": "grimmory",
+      "name": "Grimmory Source Provider",
+      "version": "0.1.0",
+      "description": "Search a connected Grimmory library and cite books from campaign wiki pages.",
+      "scope": "campaign",
+      "category": "integration",
+      "capabilities": ["sourceProvider"],
+      "manifestUrl": "https://raw.githubusercontent.com/Esiana-ttrpg/community-plugins/main/grimmory/manifest.json",
+      "source": {
+        "type": "github",
+        "repo": "Esiana-ttrpg/community-plugins",
+        "commitSha": "6f8f1ce394866498cb56eb74fe5364e6f2e08a5f",
+        "path": "grimmory"
+      },
+      "installable": true
+    },
+    {
       "id": "wiki-opds-feed",
       "name": "Wiki OPDS Feed",
       "version": "0.1.0",
