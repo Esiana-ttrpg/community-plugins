@@ -1,0 +1,21 @@
+{
+  "id": "grimmory",
+  "name": "Grimmory Source Provider",
+  "version": "0.1.0",
+  "description": "Search a connected Grimmory library and cite books from campaign wiki pages.",
+  "scope": "campaign",
+  "category": "integration",
+  "capabilities": ["sourceProvider"],
+  "backendEntry": "backend/index.js",
+  "permissions": ["source:provider", "connections:use", "network:fetch"],
+  "outboundOrigins": ["https://grimmory.org"],
+  "configTemplate": [
+    {
+      "key": "libraryIds",
+      "label": "Included Grimmory library IDs",
+      "type": "text",
+      "placeholder": "Leave blank for every accessible library"
+    }
+  ],
+  "engines": { "esiana-core": "^1.5.0" }
+}
