@@ -68,11 +68,11 @@
     },
     {
       "id": "dnd-5e",
-      "name": "D&D 5e",
-      "version": "0.2.0",
-      "description": "D&D 5e character sheets with system-specific stats, skills, saving throws, attacks, equipment, features, proficiencies, and derived values.",
+      "name": "D&D 5e Character Sheet",
+      "version": "0.3.0",
+      "description": "A complete D&D 5e character sheet with multiclass-friendly spellcasting, backed by portable Esiana CharacterFields.",
       "scope": "campaign",
-      "category": "character",
+      "category": "utility",
       "manifestUrl": "https://raw.githubusercontent.com/Esiana-ttrpg/community-plugins/main/dnd-5e/manifest.json",
       "source": {
         "type": "github",
