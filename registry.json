@@ -2,6 +2,22 @@
   "registryVersion": "1",
   "plugins": [
     {
+      "id": "foundry-vtt-sync",
+      "name": "Foundry VTT Sync",
+      "version": "0.1.0",
+      "description": "Bidirectional campaign content synchronization for Foundry VTT 13 and 14.",
+      "scope": "campaign",
+      "category": "integration",
+      "manifestUrl": "https://raw.githubusercontent.com/Esiana-ttrpg/community-plugins/main/foundry-vtt-sync/manifest.json",
+      "source": {
+        "type": "github",
+        "repo": "Esiana-ttrpg/community-plugins",
+        "commitSha": "6f8f1ce394866498cb56eb74fe5364e6f2e08a5f",
+        "path": "foundry-vtt-sync"
+      },
+      "installable": false
+    },
+    {
       "id": "remote-object-storage",
       "name": "Remote Object Storage",
       "version": "1.0.0",

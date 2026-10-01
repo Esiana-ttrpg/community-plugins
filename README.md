@@ -14,6 +14,7 @@ Default registry URL:
 |--------|-------|-------------|
 | [`demo-content-packs`](demo-content-packs/) | global | Create Campaign markdown content packs |
 | [`wiki-opds-feed`](wiki-opds-feed/) | campaign | OPDS 1.2 public lore feed |
+| [`foundry-vtt-sync`](foundry-vtt-sync/) | campaign | Foundry VTT collection synchronization boundary |
 | [`remote-object-storage`](remote-object-storage/) | global | S3-compatible storage driver registration |
 
 ## Examples (`examples/`)
@@ -34,7 +35,6 @@ Placeholder integrations — **not** in the registry. Same local install paths a
 
 | Plugin | Scope | Description |
 |--------|-------|-------------|
-| [`foundry-vtt-sync`](stubs/foundry-vtt-sync/) | global | Foundry VTT sync placeholder |
 
 See [`stubs/README.md`](stubs/README.md).
 
