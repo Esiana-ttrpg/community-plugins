@@ -1,30 +1,21 @@
 # Register a Community Plugin
 
 Use this pull request to add your plugin to the Esiana Community Plugin Registry.
-
 The registry allows Esiana to discover your plugin and make it available to users in-app. Your plugin source can remain in your own repository; this PR only needs to add its registry entry to `registry.json`.
 
 ## Plugin
-
 **Plugin name:**  
 <!-- Example: My Awesome Plugin -->
-
 **Plugin ID:**  
 <!-- Must exactly match the `id` in your manifest.json -->
-
 **Repository:**  
 <!-- Example: https://github.com/username/my-esiana-plugin -->
-
 **Manifest URL:**  
 <!-- Direct URL to manifest.json -->
-
 **Plugin location:**  
 <!-- Path within the repository, if the plugin is not at the repository root. Otherwise use "." -->
-
 ## What does your plugin do?
-
 <!-- Briefly describe what the plugin adds to Esiana and its intended use. -->
-
 
 ## Registration checklist
 
@@ -60,8 +51,6 @@ The registry allows Esiana to discover your plugin and make it available to user
 }
 ```
 
-## Maintainer / first-party plugins
-
+## Maintainer / first-party plugins / local
 <!-- External contributors can ignore this section. -->
-
 - [ ] If plugin package code in this repository changed, ran `node scripts/pin-registry-shas.mjs`.
