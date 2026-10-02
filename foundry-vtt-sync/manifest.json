@@ -1,0 +1,13 @@
+{
+  "id": "foundry-vtt-sync",
+  "name": "Foundry VTT Sync",
+  "version": "0.1.0",
+  "description": "Campaign-scoped collection synchronization for the Esiana Foundry VTT module.",
+  "scope": "campaign",
+  "category": "integration",
+  "permissions": ["campaign:sync-content"],
+  "engines": { "esiana-core": "^1.6.0" },
+  "githubUrl": "https://github.com/Esiana-ttrpg/community-plugins/tree/main/foundry-vtt-sync",
+  "backendEntry": "backend/index.js",
+  "frontendEntry": "frontend/index.js"
+}
