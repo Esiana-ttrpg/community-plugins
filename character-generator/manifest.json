@@ -1,0 +1,11 @@
+{
+  "id": "character-generator",
+  "name": "Character Generator",
+  "version": "0.1.0",
+  "description": "A system-neutral workbench for quickly generating character concepts.",
+  "scope": "global",
+  "category": "utility",
+  "engines": { "esiana-core": ">=1.5.0" },
+  "permissions": ["ui:slot"],
+  "frontendEntry": "frontend/index.js"
+}
