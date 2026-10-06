@@ -45,7 +45,7 @@
       "source": {
         "type": "github",
         "repo": "Esiana-ttrpg/community-plugins",
-        "commitSha": "6f8f1ce394866498cb56eb74fe5364e6f2e08a5f",
+        "commitSha": "4f7e28ba5a8794a3a3e5282bc560fdb132d7e4cc",
         "path": "grimmory"
       },
       "installable": true
