@@ -1,7 +1,7 @@
 {
   "id": "character-generator",
   "name": "Character Generator",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A system-neutral workbench for quickly generating character concepts.",
   "scope": "global",
   "category": "utility",
